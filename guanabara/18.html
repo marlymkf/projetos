@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Features</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="img/image2.png" alt="Features" width="477"  height="504">
+            <div class="rigth">
+                <h1 class="texto" >We are a high-level
+                    data 
+                    storage bank</h1>
+                    <p>The place to store various data that you can access at any time through the internet  and where you can carry it. 
+                        This very flexible storage area has a high level of security. To enter into your own data you must enter the password that you created when you registered in this Data Warehouse. </p>
+
+            </div>
+        </div>    
+    </div>
+    <style>
+        .container {
+            width: 95%;
+            max-width: 1117px;
+            margin: auto;
+            display: flex;
+        }
+        .box {
+            background: rgba(240, 99, 184, 0.15);
+            border-radius: 50px;
+           justify-content: space-between;
+           display: flex;
+           padding-left: 67px;
+        }
+        .texto {
+            display: flex;
+           align-items: center;
+           color: #212353;
+           font-size: 40px;
+            line-height: 130%;
+            padding: 75px 36px 0 62px; 
+        }
+        p {
+            font-size: 18px;
+            line-height: 160%;
+            color: #4B5D68;
+           max-width: 474px; 
+           
+            padding: 40px 37px 175px 62px;          
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        @media (max-width:1023px) {
+            .box {
+                flex-direction: column;
+                
+            }
+            .texto {
+                padding-top: 40px;
+            }
+        }
+        @media (max-width: 600px) {
+           .container{
+               align-items: center;
+           }
+           .texto  {
+              font-size: 30px;
+              line-height: 90%;
+              padding: 20px 18px 0 30px;
+           }
+           p {
+               font-size: 12px;
+               line-height: 160%;
+               padding: 20px 18px 0 30px;
+           }
+           .box {
+               padding-left: 0;
+           }
+            
+        }
+
+     
+            
+        
+
+    </style>
+    
+</body>
+</html>

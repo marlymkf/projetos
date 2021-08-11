@@ -1,0 +1,285 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background: #000000;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.cabecalho {
+  margin: auto;
+  padding: 30px;
+}
+.lista {
+  list-style: none;
+}
+.lista a {
+  text-decoration: none;
+  padding: 14px 14px;
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+}
+.container {
+  max-width: 1290px;
+  width: 92%;
+  margin: auto;
+}
+.la-caravana {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 72px;
+  text-align: center;
+  align-items: center;
+  border-bottom: 4px solid #f2c94c;
+  box-shadow: 3px 6px 18px rgba(0, 0, 0, 0.25);
+  display: inline-block;
+}
+.texto {
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 40px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 22px;
+  margin-top: 22px;
+  max-width: 745px;
+  color: #ffffff;
+}
+.topo {
+  background-image: url(img/pizza.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 206px;
+  padding-bottom: 452px;
+  text-align: center;
+}
+.texto1 {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 20px;
+}
+h2 {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 60px;
+  max-width: 474px;
+  border-bottom: 4px solid #f2c94c;
+}
+.left {
+  max-width: 474px;
+}
+.box {
+  margin: 140px 0;
+}
+.texto2 {
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: normal;
+  letter-spacing: 0.09em;
+  margin-top: 25px;
+  margin-bottom: 140px;
+}
+.botao {
+  color: #f2c94c;
+  font-weight: bold;
+  font-size: 17px;
+  max-width: 129px;
+  border: 2px solid #f2c94c;
+  box-sizing: border-box;
+  border-radius: 2px;
+  height: 54px;
+  cursor: pointer;
+  background: #000000;
+}
+h3 {
+  color: #ffffff;
+  text-align: center;
+  font-weight: normal;
+  font-size: 60px;
+  border-bottom: 4px solid #f2c94c;
+  margin: 63px auto 90px;
+  max-width: 474px;
+}
+.texto4 {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0.09em;
+}
+.find {
+  text-align: center;
+}
+.right {
+  max-width: 550px;
+}
+.texto3 {
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 40px;
+  color: #ffffff;
+  letter-spacing: 0.09em;
+  margin-bottom: 47px;
+  max-width: 1080px;
+  text-align: center;
+  margin: 14px auto 47px;
+}
+.menu {
+  color: #f2c94c;
+  font-weight: bold;
+  font-size: 17px;
+  max-width: 129px;
+  border: 2px solid #f2c94c;
+  box-sizing: border-box;
+  border-radius: 2px;
+  height: 54px;
+  cursor: pointer;
+  background: #000000;
+  padding: 6px 20px;
+}
+.but {
+  margin-top: 58px;
+  margin-bottom: 97px;
+}
+h4 {
+  color: #ffffff;
+  text-align: center;
+  font-weight: normal;
+  font-size: 60px;
+  border-bottom: 4px solid #f2c94c;
+  max-width: 474px;
+  margin: 97px auto 14px;
+}
+.lacar {
+  background-image: url(img/Desktop\ -\ 5.png);
+  background-size: cover;
+  background-position: center top;
+  text-align: center;
+  padding-top: 580px;
+  padding-bottom: 192px;
+}
+.rede-sociais {
+  max-width: 237px;
+  padding: 20px;
+  margin: auto;
+}
+.rodape {
+  padding: 27px 0;
+}
+.texto-5 {
+  font-weight: normal;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+@media (max-width: 1200px) {
+  .pao img {
+    max-width: 450px;
+  }
+
+  .left,
+  .right {
+    max-width: 100%;
+  }
+
+  .box {
+    flex-direction: column;
+  }
+  .texto2 {
+    margin-bottom: 70px;
+  }
+  .mapa {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .botao {
+    margin-bottom: 30px;
+  }
+  .texto4 {
+    margin-top: 30px;
+  }
+
+  .box img, .mapa img {
+    width: 100%;
+  } 
+}
+
+@media (max-width:991px) {
+  .pao  {
+    flex-direction: column;
+   
+  }
+  .pao img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+@media (max-width:630px){
+  .lista {
+    display: none;
+  }
+  .la-caravana {
+    font-size: 36px;
+  }
+  .texto {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 11px;
+  }
+  .topo {
+    padding-top: 106px;
+    padding-bottom: 290px;
+  }
+  h2, h3 {
+    font-size: 36px;
+    
+  }
+  .texto2, .texto3, .texto4 {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 11px;
+    margin-bottom: 30px;
+  }
+  .but {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  } 
+  .texto-5 {
+    font-size: 16px;
+  }
+  .lacar {
+    padding-top: 280px;
+    padding-bottom: 80px;
+  }
+  .box {
+    margin: 70px 0;
+  }
+  h4 {
+    font-size: 36px;
+    margin-top: 40px;
+  }
+}

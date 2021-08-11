@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: #e5e5e5;
+}
+.container {
+  max-width: 1180px;
+  width: 95%;
+  margin: auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.cabecalho {
+  padding: 63px 0;
+}
+.lista {
+  list-style: none;
+  padding: 0;
+}
+.lista a {
+  padding: 12px 28px;
+  text-decoration: none;
+  color: #9d9d9d;
+}
+.botao {
+  margin-left: 28px;
+  color: #ffffff;
+  max-width: 114px;
+  background: #1766ff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 0;
+  cursor: pointer;
+}
+.lista-ativa {
+  color: #000 !important;
+}
+.box {
+  max-width: 558px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 125%;
+  color: #000000;
+  margin-top: 70px;
+}
+span {
+  color: #1766ff;
+}
+.texto {
+  color: #000000;
+  font-size: 20px;
+  line-height: 125%;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+.botao-1 {
+  color: #ffffff;
+  max-width: 160px;
+  background: #1766ff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.botao-2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 160px;
+  background: #ffffff;
+  border: 1.4px solid #1766ff;
+  border-radius: 6px;
+  margin: 0px 24px;
+  color: #1766ff;
+  padding: 12px 24px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.vetor {
+  color: #9d9d9d;
+  font-size: 20px;
+  line-height: 125%;
+  padding-top: 16px;
+}
+.vetor--1 {
+  padding-top: 72px;
+}
+.card {
+  padding: 0 12px;
+}
+.seta {
+  margin-top: 123px;
+  margin-bottom: 65px;
+}
+.bailarina {
+  background-image: url(img/Saly-1.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+@media (max-width:1200px) {
+  .bailarina {
+    background: none;
+  }
+}
+@media (max-width: 767px) {
+  .lista a {
+    display: none;
+  }
+  h1 {
+    margin-top: 30px;
+    font-size: 36px;
+  }
+  .seta {
+    margin-top: 80px;
+  }
+  .cabecalho {
+    padding-bottom: 30px;
+  }
+}

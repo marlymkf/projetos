@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-f.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em html5.</p>
+    <audio src="midia/Muriel - Bobby Richards.mp3" controls autoplay></audio>
+    <!--MP WAV OGG -->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <h2>Sala de estar</h2>
+    <picture>
+        <source media="(max-width: 690px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="imagem flexivel">    
+
+    </picture>
+    <picture>
+        <source media="(max-width: 690px)" srcset="imagens/Marly-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/Marly-m.png" type="image/png">
+        <img src="imagens/Marly-g.png" alt="imagem flexivel">    
+
+    </picture>
+
+</body>
+</html> 

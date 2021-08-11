@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+</head>
+<body> 
+    <header class="cabecalho">
+        <div class="container-big">
+            <div class="flex">
+                <img src="img/Employer Brandwagon.png" alt="logo" width="168" height="57">
+               
+                <ul class="flex">
+                    <li><a href="">Videos</a></li>
+                    <li><a href="">Articles</a></li>
+                    <li><a href="">Learders</a></li>
+                    <li><a href="">Absout</a></li>
+                    <li><a href="">Contact</a></li>
+                                    
+                  
+                </ul>                        
+                  
+            </div>
+
+        </div>
+
+    </header>
+    <p class="contact">
+        Contact
+    </p>
+    <div class="container">
+        <h1 class="titulo">The Project</h1>
+        <P class="texto">
+            Employer Brandwagon is powered by <a class="link" href="maito">The Martec.</a><br><br>
+            We help organisations amplify their brand or change their brand perception in their critical talent segments using content. We make it easy for them to do this successfully through the lens of their employees.<br><br>
+            We offer an employee ghost-writing platform to build organisation’s pipelines of employment branding content, by doing content production, Employee Advocate management and social distribution.<br><br> 
+            Like our global influencers, we’re passionate about building support within business for employer branding, so we’re supporting the community with our services.<br><br>
+            The site is community managed by Brie Mason, Founder & Director of Employer Brand Mason. (hyperlink) www.employerbrandmason.com Brie is an employer brand thought leader and pioneer in the Australian market, with over 15 years’ experience dedicated to building multi-award winning employer brands in the APAC region.<br><br> 
+            Contact The Martec Influencer Manager.
+        </P>
+
+    </div>
+       <form class="form">
+            <h2 class="titulo-2">Get in the know</h2>
+            <p class="texto-2">
+                Register to stay up to date with the latest articles and upcoming webinars. We’ll send you a monthly roundup of all things employer branding.
+            </p>
+            <div>
+                <label for="fullname">Name</label>
+                <input type="text" id="fullname" />
+            </div>
+            <di>
+                <label for="company">Company</label>
+                <input type="text" id="company" />
+            </di>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" />
+            </div>
+            <button type="submit" class="botao">Join the Community</button>
+       </form>
+       <footer div class="rodape">
+           <div class="container-rodape flex">
+            <img  src="img/Employer Brandwagon.png" alt="employer" width="216" height="63"> 
+               <div class="imagem">              
+                                                  
+                 <img src="img/Vector.png" alt="facbook">
+                 <img src="img/Twitter.png" alt="twitter">
+                 <img src="img/Union.png" alt="Union">
+                 <img src="img/Subtract.png" alt="Subtract">
+               </div>
+           </div>
+
+       </footer>
+   
+    <style>
+        *{
+            box-sizing: border-box;
+        } 
+         body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif; 
+       }
+        .container {
+            width: 95%;
+            max-width:736px;
+            margin: auto;
+        }
+        .titulo {
+            color:Grey 9 0E0E0E;
+            padding-bottom: 8px;
+        }
+        .texto {
+            font-size: 16px;
+            line-height: 24px;
+            color: #616161;
+            max-width: 736px;
+        }
+        .titulo-2 {
+            font-size: 40px;
+            line-height: 120%;            
+            margin-bottom: 8px;
+            margin-top: 112px;
+            color: #0E0E0E;
+
+        }
+        .form {
+            max-width: 480px;
+            margin: auto;
+            width: 95%;
+         
+        }
+        .texto-2 {
+            font-size: 16px;
+            line-height: 24px;
+            color: #616161;
+            margin-bottom: 25px;            
+        }
+        label {
+            color: #9B9B9B;
+            margin-bottom: 4px;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        input {
+            background-color: #FCFCFC;
+            padding: 28px 16px;
+            width: 100%;
+            border: 0;
+            border-bottom: 4px solid #EAEAEA;
+            margin-bottom: 16px;
+        }
+        button {
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color:  #FFFFFF;
+            padding: 24px 40px;
+            background-color: #0E0E0E;
+            margin-left: auto;
+            border-radius: 100px;
+            display: block;
+            cursor: pointer;
+            margin-bottom:112px ;
+        }
+        .link {
+           color: #0E0E0E; 
+           font-weight: bold;
+        }
+        .container-rodape {
+            width: 95%;
+            max-width: 1440px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+
+        }
+        .rodape {
+            background-color: #F8F8F8;
+            margin-top: 112px;
+
+        }
+        .imagem {
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+            padding: 63px 0 74px;
+           
+        }
+        .imagem img:not(:first-child) {
+            margin-left: 26px;
+        }
+        .contact {
+            padding: 137px 0;
+            text-align: center;
+            font-size: 72px;
+            line-height: 120%;
+            color: #FFFFFF;
+            width: 100%;
+            background-image: url(img/Group\ 115.jpg);
+            margin-top: 0;
+            background-size: cover;
+        } 
+        .cabecalho .container-big {
+           max-width: 1440px;
+           width: 95%;
+           margin: auto;
+            
+            
+        }
+        .flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+        li {
+            list-style: none;
+            
+        }
+        li a {
+            text-decoration: none;
+            margin-left: 26px;
+            color: #0E0E0E;
+            font-size: 16px;
+            line-height: 24px;
+            padding-bottom: 8px;            
+        }
+        li a:hover{
+            border-bottom:3px solid #FFCF5C;
+
+        }
+        .cabecalho {
+            padding: 21px 30px;
+           
+        }
+        
+        @media (max-width: 1023px){
+            button{
+                margin-bottom: 55px;
+            }
+            .titulo-2 {
+                margin-top: 55px;
+            }   
+
+        }
+        @media (max-width: 600px){
+            .rodape  {
+                margin-top: 40px;
+                padding-top: 40px;
+            
+            } 
+            .imagem {
+                padding: 31px 0 37px;
+            }
+            li {
+                display: none;
+            }
+           
+            
+           
+            
+           
+                       
+                                    
+        }
+
+       
+         
+        
+
+        
+        
+
+    </style>
+    
+</body>
+</html>

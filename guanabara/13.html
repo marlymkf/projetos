@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container-big container">
+            <div class="flex">
+               
+                <img src="img/awari.@3x.png" alt="awari">
+                <ul class="flex">
+                    <li> <a href=""> Cursos <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M5.03329 4.87621C5.01122 4.89701 5.02578 4.90926 5.01111 4.922C4.94523 4.97865 4.85801 5.00312 4.77178 4.99968C4.68639 5.00255 4.60033 4.97779 4.53496 4.92185C4.52045 4.90926 4.52445 4.89081 4.51328 4.87693L0.866011 1.46577C0.741929 1.35919 0.741929 1.18678 0.866011 1.08019C0.990094 0.973889 1.19106 0.973889 1.31531 1.08019L4.77262 4.31408L8.23042 1.08005C8.3545 0.973317 8.55564 0.973317 8.67972 1.08005C8.80397 1.18621 8.80397 1.35876 8.68005 1.4652C8.68005 1.4652 5.05536 4.85541 5.03329 4.87621Z" fill="white" stroke="#302C50" stroke-width="1.3"/>
+                        </svg>
+                        </a></li>
+                    <li> <a href="" >Mentores</a></li>
+                    <li> <a href="" >Historias de Sucesso</a></li>
+                    <li> <a href="" >Perguntas Frequentes</a></li>
+                    <li> <a href="">Login</a></li>
+                    <li class="mostrar-botao"> <a href="" class="botao">Saiba Mais</a></li>
+                </ul>
+                
+                
+                
+            </div>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1 class="titulo">Contato</h1>
+        <p class="texto">
+            Nós estamos aqui para te ajudar. Você pode entrar em contato conosco através <a href="mailto:marlykf@gmail.com"> de nosso email,</a> ou preencher o formulário abaixo. Nosso tempo de resposta é de até um dia útil.
+        </p>
+        <div class="box">
+            <form class="form">
+                    <input type="text" id="nome" class="input" placeholder="Nome" required />
+                    <input type="email" id="email" class="input" placeholder="Email" required />
+                    <textarea id="msg" class="input" placeholder="Com o que podemos te ajudar?" required></textarea>
+                    <button type="submit" class="botao">Enviar mensagem</button>
+            </form>    
+        </div>
+    </div>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .cabecalho {
+            padding: 6px 0;
+            border-bottom: 1px solid #eee;
+
+        }
+        .cabecalho .container-big {
+            max-width: 1120px;
+            
+        }
+        
+        .flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .botao {
+            text-decoration: none;
+            border-radius: 4px;    
+            padding:12px 24px 12px 24px; 
+            background-color: #0088F2;
+            box-shadow: 0px 2px 6px rgba(0, 136, 242, 0.12);
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-left: 12px; 
+            cursor: pointer;
+             
+        }
+        li a {
+            text-decoration: none;
+            padding: 14px 12px;
+        }
+        li {
+            list-style: none;
+
+        }
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif; 
+       }
+       .container {
+           width: 95%;
+           max-width: 656px;
+           margin: auto;
+       }
+       .titulo {
+           color:  #0088F2;
+           text-align: center;
+           font-size: 48px;
+            line-height: 50px;
+            margin-bottom: 16px;
+       }
+       .texto {
+           font-size: 17px;
+           line-height: 27px;
+           text-align: center;
+           color: #8493AC;
+           max-width: 579px;
+       }
+       .form{
+           max-width: 428px;
+           margin: 40px auto 119px;
+
+       } 
+
+       .form * {
+           width: 100%;
+           margin: 0 auto 7px;
+       }
+       .text {
+            padding: 0 24px;
+            background: #FFFFFF;
+            border: 1px solid rgba(132, 147, 172, 0.05);
+            box-shadow: 0px 2px 6px rgba(48, 44, 80, 0.08);
+            border-radius: 4px;
+            color: #8493AC;
+            font-size: 15px;
+            line-height: 48px;
+       }
+       .texto a{
+           color: #0088F2;;
+
+       }
+       @media (max-width: 1023px) {
+            .cabecalho li:not(.mostrar-botao){
+               display: none;
+           }
+           .form {
+               margin: 40px auto 60px;
+           }
+       }
+    </style>
+    
+</body>
+</html>

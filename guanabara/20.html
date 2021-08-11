@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>how</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="box">
+            <h1>How it works</h1>
+            <div class="box-conteudo">
+            <div class="coluna-1">            
+                <img src="img/create.png" alt="martelo" width="204" height="160">
+                <h2 class="titulo">Create your site</h2>
+                <p class="texto">Create an account to get started.</p>
+            </div>
+            <div class="coluna-2">
+                <img src="img/add-content.png" alt="pagina" width="204" height="160">
+                <h2 class="titulo">Add Contents</h2>
+                <p class="texto">Add contents and pages to your site.</p>                
+            </div>
+            <div class="coluna-3">
+                <img src="img/launch.png" alt=" publish" width="204" height="160">
+                <h2 class="titulo">Publish</h2>
+                <p class="texto">Now publish to make your site live!</p>
+            </div>
+            </div>
+        </div>
+        
+    </div>
+    <style>
+        body {
+            background: #C0DAE5;
+            margin: 0;  
+            padding: 100px 0;
+        }         
+        .container {          
+            width: 92%;           
+            margin: auto;
+        }
+        h1 {
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 64px;
+            color: #18191F; 
+           margin: 0;
+            text-align: center;
+        }
+        .box {
+           
+            padding: 64px 165px;
+            background: #FFFFFF;
+            max-width: 1440px;
+           
+        }
+        .coluna-1, .coluna-2, .coluna-3{
+           padding: 52px 31px;
+           text-align: center; 
+        }
+        .box-conteudo {
+            display: flex; 
+            justify-content: center;                               
+        }
+        .titulo {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #18191F;
+            margin: 16px 0px 4px;
+        }
+        .texto {
+            font-size: 16px;
+            line-height: 26px;
+            color: #18191F;
+            text-align: center;
+            margin: 0;
+        }            
+
+        @media (max-width: 1200px) {
+            .box {
+                padding: 64px 10px;  
+            }
+            
+        }
+        @media (max-width: 1023px) {
+                .coluna-1, .coluna-2, .coluna-3 {
+                    padding: 20px 10px;
+                }
+
+        }
+        @media (max-width: 767px) {
+            .box-conteudo {
+                flex-direction: column;
+            }
+        }
+
+    </style>
+    
+</body>
+</html>

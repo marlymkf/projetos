@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+</head>
+<body>
+    <div class="container">
+        <div class="flex">
+            <div class="left">
+                <p class="name">Client Name</p>
+                <h1>Type your project title here.
+                    It can go for two lines as well.</h1>
+                <p class="texto">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.
+                </p>
+                <p class="seta">Get started
+                    <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.1948 1.97145C9.93442 1.7111 9.93442 1.28899 10.1948 1.02864C10.4551 0.768287 10.8772 0.768287 11.1376 1.02864L15.1376 5.02864C15.3979 5.28899 15.3979 5.7111 15.1376 5.97145L11.1376 9.97145C10.8772 10.2318 10.4551 10.2318 10.1948 9.97145C9.93442 9.7111 9.93442 9.28899 10.1948 9.02864L13.0567 6.1667H1.34003C0.967784 6.1667 0.666016 5.86822 0.666016 5.50003C0.666016 5.13184 0.967784 4.83336 1.34003 4.83336H13.0567L10.1948 1.97145Z" fill="#8C30F5"/>
+                    </svg>
+                    </p>
+            </div> 
+            <div class="rigth">
+                <img src="img/iPhone X.png" alt="iPhone" width="410" height="761">
+            </div> 
+        </div>  
+    </div>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+        body {
+            background: #D5FAFC;
+            margin: 0;
+
+        }
+        .container {          
+            width: 92%;           
+            margin: auto;
+            max-width: 1110px;
+        }
+        .flex {
+            justify-content: space-between;
+            display: flex;
+        }
+        .name {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            color: #18191F;
+            margin-top: 264px;
+            margin-bottom: 32px;
+        }
+        .left {
+            max-width: 540px;
+           margin-right: 125px;
+            
+        }
+        h1 {
+            font-weight: 800;
+            font-size: 28px;
+            line-height: 40px;
+            color: #18191F;
+            margin-bottom: 16px; 
+            padding-right: 0;
+        }
+        .texto {
+            font-size: 18px;
+            line-height: 32px;
+            color: #18191F;
+        }
+        .seta{
+            font-size: 12px;
+            line-height: 16px;
+            color: #8C30F5;
+            margin: 0 8px;
+            margin-top: 22px;
+        }
+         .rigth {
+             max-width: 540px;             
+         }
+         img {
+           margin-top: 80px;
+           margin-bottom: 80px; 
+         }
+         @media (max-width: 1023px) {
+             .left {
+                 margin-right: 0;
+                 max-width: 250px;
+                
+             }
+             .texto{
+                 font-size: 22px;
+                 font-weight: 36px;
+             }
+         }                                        
+        
+         @media (max-width: 767px) {
+             .flex {
+                 flex-direction: column;
+                
+             }
+             .name {
+                 margin-top: 60px;
+             }
+             .left {
+                 margin-right: 0;
+                 max-width: 350px;
+                 
+             }
+             img {
+                 margin-top: 40px;
+                 margin-bottom: 40px;
+             }
+             .texto {
+                 font-size: 20px;
+                 line-height: 28px;
+             }
+             
+            
+
+         }
+
+    </style>
+    
+</body>
+</html>

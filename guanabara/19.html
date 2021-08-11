@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headline</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="img/Phone Mockup.png" alt="iPhone" width="540" height="540">
+            <div class="rigth">
+                <h1 class="titulo-principal">Headline</h1>
+                <p class="texto">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.
+                </p>
+                <p class="chave">Get started <svg class="seta" width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.2931 1.70711C13.9026 1.31658 13.9026 0.683417 14.2931 0.292893C14.6837 -0.0976311 15.3168 -0.0976311 15.7074 0.292893L21.7073 6.29289C22.0979 6.68342 22.0979 7.31658 21.7073 7.70711L15.7074 13.7071C15.3168 14.0976 14.6837 14.0976 14.2931 13.7071C13.9026 13.3166 13.9026 12.6834 14.2931 12.2929L18.586 7.99998H1.01103C0.452653 7.99998 0 7.55227 0 6.99998C0 6.4477 0.452653 5.99998 1.01103 5.99998H18.586L14.2931 1.70711Z" fill="#8C30F5"/>
+                    </svg></p>
+            </div>
+
+        </div>
+        <div class="flex">
+            <h2 class="titulo">Enter the world of all fashion trends</h2>
+            <p class="texto-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis scelerisque at quam congue posuere libero in sit quam. Consequat, scelerisque non tincidunt sit lectus senectus.</p>
+
+        </div>
+        <img class="lampada" src="img/Cover Image.png" alt="lampada" width="1110" height="400">
+       
+    </div>
+    <div class="celular">
+        <div class="container">
+            <h2 class="mobile">Manage your projects from your mobile</h2>
+            <p class="texto-2">
+                Download the app to manage your projects, keep track of the progress and complete tasks without procastinating. Stay on track and complete on time!
+            </p>
+            <p class="centro">Get the App</p>
+            <div class="flex botoes">
+                <img src="img/Google Play Badge.png" alt="play" width="135" height="40">
+                <img src="img/App Store Badge.png" alt="app" width="135" height="40">
+
+
+            </div>
+        </div>
+    </div>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+        }
+        .container {
+            width: 95%;
+            max-width: 1110px;
+            margin: auto;
+            
+        }
+        .box {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 128px 0;
+            background: #FFFFFF;
+        }
+        h1{
+            font-size: 40px;
+            line-height: 54px;
+            color: #18191F;
+            font-weight: 800;
+        }
+        h1,h2 {
+            margin: 0;
+        }
+        .texto {
+            font-size: 18px;
+            line-height: 32px;
+            color: #18191F;
+            margin: 32px 0;
+        }
+        .chave {
+            color:  #8C30F5;          
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            display: flex;
+            align-items: center;
+        }
+        .rigth {
+            padding-left: 78px;
+        }
+        .seta {
+            margin-left: 8px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .titulo {
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 54px;
+            color: #18191F;
+            max-width: 540px;         
+            width: 50%;
+            margin: 0;
+            padding-right: 60px;                        
+
+        }
+        .flex  {
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        .texto-2 {
+            font-size: 18px;
+            line-height: 32px;
+            max-width: 540px;
+            margin: 0;           
+            color:#18191F ;
+            width: 50%;           
+        }
+        .lampada {
+            padding-top: 48px;
+            padding-bottom: 64px;
+        }
+        .celular {
+            background-image: url(img/6.png);
+            background-size: cover;
+            width: 100%;
+            padding: 68px 0 ;
+            background-position: center;
+        }
+        .mobile {
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 64px;
+            color: #18191F;
+            max-width: 540px;
+        }
+        .centro {
+            margin-top: 48px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            margin-bottom: 8px;
+        }
+        .botoes {
+            max-width: 282px;
+        }
+        
+           
+      
+
+        @media (max-width:1023px) {
+            .box {
+                flex-direction: column;
+                padding: 64px 0;
+            }         
+            .titulo-principal {
+                margin-top: 30px;
+            }
+            .mobile {
+                max-width: 448px;
+            }    
+            .celular .texto-2 {
+                max-width: 448px;
+               
+            }
+        }
+        @media (max-width: 600px) {
+           .container{
+               align-items: center;
+           }
+            h1 {
+              font-size: 30px;
+              line-height: 90%;
+            
+           }
+            .texto{
+               font-size: 14px;
+               line-height: 160%;
+            
+           }
+           .rigth {
+               padding-left: 0;
+           }
+           .box {
+               padding: 40px 0;
+           }                       
+        }
+        @media (max-width: 600px) {
+            .flex {
+                flex-direction: column;
+               
+            }
+            .botoes {
+                flex-direction: row;
+            }
+            .titulo {
+                font-size: 30px;
+               line-height: 40px;
+               width: 100%;
+               padding-right: 0;
+               
+            }
+            .texto-2 {
+                padding-left: 0;
+                font-size: 14px;
+                line-height: 160%;
+                padding-top: 0;
+                width: 100%;                              
+            }
+            .lampada {
+                padding-top: 24px;
+                padding-bottom: 32px;
+            }
+            .mobile {
+                font-size: 34px;
+                line-height: 38px;
+            }
+            .centro {
+                margin-top: 32px;
+            }
+            .celular {
+                background-position: left;
+                padding: 35px 0;
+            }
+        }
+
+       
+           
+        
+
+
+    </style>
+    
+</body>
+</html>

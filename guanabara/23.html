@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>head</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="left">
+                <img src="img/Project Cover.png" alt="projet" width="735" height="600">
+
+            </div>
+            <div class="rigth">
+                <h1>Headline</h1>
+                <p class="texto">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate. Nisi, risus in suscipit non. Non commodo volutpat, pharetra, vel.
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+
+        }
+        body {
+            background: #C0DAE5; 
+            margin: 0;
+            font-family:  sans-serif;
+        }
+        .container {
+            max-width: 1440px;
+            width: 92%;
+            margin: auto;
+        }
+        .box {
+            background-color: #F9FAFC;
+          
+            display: flex;
+            align-items: center;
+            padding: 0;
+            margin: 60px auto;
+        }
+        h1 {
+            font-size: 40px;
+            line-height: 54px;
+            font-weight: 800;
+            margin-bottom: 32px;
+        }
+        .texto {
+            font-size: 18px;
+            line-height: 32px;
+            color: #18191F;
+        }
+        .rigth {
+            max-width: 444px;
+            margin: 0 48px;
+
+        }
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        @media (max-width:1023px) {
+            .box {
+                padding: 48px 60px 48px 0px;
+                margin-top:60px;
+            }
+            .left {
+                width: 200%;
+            }
+        }
+        @media (max-width: 767px) {
+            .box {
+                flex-direction: column;
+                padding: 0 0 48px;
+            }
+            .left {
+                width: 100%;
+                margin-top: 20px;
+            }
+            h1 {
+                margin-bottom: 10px;
+                margin-top: 20px;
+            }
+            .rigth {
+                margin-left: 15px;
+                margin-right: 15px;
+            }
+
+            
+        }
+    </style>
+    
+</body>
+</html>

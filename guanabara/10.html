@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carreira</title>
+</head>
+<body>
+    <section class="azul">
+        <div class="container">
+            <h1>Pronto para iniciar sua carreira?</h1>
+            <p>Inscreva-se ou entre em contato com nosso time</p>
+            <div class="flex">
+               <button>Participe do processo seletivo →</button> 
+                <a class="flex" href="http://">
+                    <img src="img/logos_whatsapp.png" alt="whatsapp">
+                    <span>Tire suas dúvidas</span>
+                </a>
+            </div>
+        </div> 
+
+    </section>
+
+    <style>
+        body,h1,p {
+            margin: 0;
+        }
+        .azul {
+         background-color: #0088F2; 
+         padding: 139px 0;  
+        }
+        .container {
+            width: 90%;
+            max-width: 1170px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 60px;
+            line-height: 100%;  
+            letter-spacing: -1.96429px;      
+            color: #F9FAFC; 
+            font-weight: normal;
+            margin-bottom: 10px;
+        }
+        p {
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 120%;
+            color: #F9FAFC;
+        }
+
+        .flex {
+            display: flex;
+            align-items: center;
+        }
+
+        button {
+            background: #FFFFFF;
+            border-radius: 50px;
+            padding: 13px 30px;
+            border: 0;
+            font-size: 16px;
+            line-height: 23px;
+            color: #0088F2;
+            margin-right: 20px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+
+        a {
+            text-decoration: none;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50px;
+            padding: 13px 30px 13px 35px;
+            font-size: 16px;
+            line-height: 23px;
+            color: #FFFFFF;
+            margin-top: 15px;
+        }
+
+        span {
+            margin-left: 11px;
+        } 
+
+        @media (max-width: 991px) {
+            .azul {
+                padding: 99px 0;
+            }
+            h1 {
+                font-size: 54px;
+            }
+        }
+        @media (max-width: 767px) {
+            h1 {
+                font-size: 47px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .azul {
+                padding: 70px 0;
+            }
+            h1 {
+                font-size: 40px;
+            }
+            p {
+                font-size: 18px;
+            }
+            .flex:not(a) {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
+        @media (max-width: 359px)  {
+            button {
+                margin-right: 0;
+            }
+            button,a{
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+
+    
+    </style>
+    
+
+</body>
+</html>

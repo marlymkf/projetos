@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="left">
+                <h1>Project Title</h1>
+                <p class="texto">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. 
+                </p>
+
+            </div>
+            <div class="rigth">
+                <img src="img/Capturar.PNG" alt="modile" width="400" height="400">
+
+            </div>
+        </div>                       
+
+    </div>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+        body {
+         background: #FFFFFF; 
+         margin: 0; 
+        }
+        .container {
+          max-width: 1110px; 
+          width: 92%; 
+          margin: auto;
+        }
+        .box{
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            background: #2EC5CE;
+            padding: 24px 88px 0 64px;
+            margin: 80px 0;
+        } 
+        
+        .left {
+            max-width: 350px;
+           
+        }
+        h1 {
+            font-weight: 800;
+            font-size: 28px;
+            line-height: 40px;
+            color: #18191F;
+            margin-bottom: 16px;
+        }.texto {
+            font-size: 18px;
+            line-height: 32px;
+            color: #18191F;
+        } 
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        @media (max-width:1023px) {
+            .box {
+                padding:  24px 44px 0 32px;
+            }
+            .rigth {
+                width: 40%;
+            }
+        }
+        @media (max-width: 767px) {
+            .box {
+                flex-direction: column;
+            }
+            .rigth {
+                width: 100%;
+                margin-top: 20px;
+            }
+
+            
+        }
+
+        
+
+    </style>
+</body>
+</html>

@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background: #fff;
+  font-family: "Nunito Sans", sans-serif;
+}
+.container {
+  max-width: 1091px;
+  width: 95%;
+  margin: auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.lista {
+  list-style: none;
+}
+.lista a {
+  text-decoration: none;
+  padding: 0 18px;
+  color: #121212;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+.contact {
+  padding: 0 36px !important;
+  border-left: 1px solid #ddd;
+  margin-left: 18px;
+}
+.cabecalho {
+  margin-top: 49px;
+}
+.left {
+  max-width: 431px;
+  /* margin: auto; */
+}
+h1 {
+  color: #121212;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+}
+.texto {
+  color: #121212;
+  line-height: 27px;
+  font-size: 20px;
+  max-width: 431px;
+  margin-top: 16px;
+}
+.box {
+  max-width: 1091px;
+  margin: auto;
+  align-items: center;
+}
+.botao {
+  background: #ffb61d;
+  border-radius: 8px;
+  padding: 12px 41px;
+  margin: 48px 0px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  border: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+}
+.rigth-1 {
+  max-width: 560px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  color: #121212;
+}
+.texto-1 {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #121212;
+  margin-top: 8px;
+}
+.titulo {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  color: #121212;
+  margin-bottom: 98px;
+  margin-top: 150px;
+}
+.box-2 {
+  max-width: 1000px;
+  margin: auto;
+}
+.coluna {
+  width: 280px;
+}
+.texto-2 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 35px;
+  color: #121212;
+  margin: 0 24px;
+}
+.texto-3 {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #121212;
+  margin-top: 4px;
+}
+.left-2 {
+  max-width: 560px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.61;
+  color: #121212;
+  margin-top: 166px;
+}
+.texto-4 {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #828282;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.form {
+  margin-top: 24px;
+  max-width: 477px;
+}
+.input {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  color: #828282;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 317px;
+  padding: 12px;
+  margin-right: 10px;
+}
+.botao--menor {
+  font-size: 20px;
+  line-height: 27px;
+  padding: 13px 23px;
+}
+.rodape {
+  margin-top: 62px;
+  margin-bottom: 40px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid rgba(235, 234, 237, 0.5);
+}
+.texto-7 {
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(21, 20, 57, 0.4);
+}
+.rede-sociais {
+  width: 127px;
+}
+.rodape-2 {
+  margin-bottom: 67px;
+}
+
+@media (max-width: 1200px) {
+  .planeta {
+    width: 350px;
+  }
+}
+@media (max-width: 1023px) {
+  .rigth-1,
+  .left {
+    max-width: 360px;
+  }
+  .cabecalho {
+    margin-bottom: 40px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+  .texto-2 {
+    font-size: 22px;
+  }
+  .coluna {
+    padding-right: 13px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  .weather {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 767px) {
+  .rigth-1,
+  .left,
+  .weather,
+  .form,
+  .input {
+    max-width: 100%;
+  }
+  .lista {
+    display: none;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .ordem-1 {
+    order: 1;
+  }
+  .rigth-1 {
+    order: 0;
+  }
+  .texto-1 {
+    margin-bottom: 40px;
+  }
+  .titulo {
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+  .coluna {
+    padding-top: 20px;
+    padding-right: 0;
+    width: 100%;
+    text-align: center;
+  }
+  h3 {
+    margin-top: 70px;
+    font-size: 26px;
+  }
+  .botao--menor {
+    margin: 20px 0;
+    width: 100%;
+  }
+  .input {
+    margin-right: 0;
+    width: 100%;
+  }
+  .rede-sociais {
+    flex-direction: row;
+    margin-top: 30px;
+  }
+}
